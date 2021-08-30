@@ -19,7 +19,7 @@
     {
       "name": "outbound-access",
       "attrs": {
-        "host": "httpstat.us",
+        "host": "se3l85r4x5.execute-api.us-east-2.amazonaws.com",
         "path": "*"
       }
     },
