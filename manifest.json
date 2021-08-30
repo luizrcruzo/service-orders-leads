@@ -1,7 +1,7 @@
 {
-  "name": "service-example",
-  "vendor": "vtex",
-  "version": "0.2.0",
+  "name": "finalchallenge",
+  "vendor": "hiringcoders202130",
+  "version": "0.0.1",
   "title": "Service Example",
   "description": "Reference app for VTEX IO Services",
   "mustUpdateAt": "2018-01-04",
@@ -22,6 +22,29 @@
         "host": "httpstat.us",
         "path": "*"
       }
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "portal.vtexcommercestable.com.br",
+        "path": "*"
+      }
+    },
+    {
+      "name": "ADMIN_DS"
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "api.vtex.com",
+        "path": "/dataentities/*"
+      }
+    },
+    {
+      "name": "OMSViewer"
+    },
+    {
+      "name": "WorkflowAction"
     },
     {
       "name": "colossus-fire-event"

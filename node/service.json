@@ -1,14 +1,14 @@
 {
   "memory": 256,
   "ttl": 10,
-  "timeout": 2,
+  "timeout": 10,
   "minReplicas": 2,
-  "maxReplicas": 4,
-  "workers": 1,
+  "maxReplicas": 10,
+  "workers": 4,
   "routes": {
-    "status": {
-      "path": "/_v/status/:code",
+    "hook": {
+      "path": "/_v/hook",
       "public": true
-    }
+    }  
   }
 }
