@@ -1,7 +1,7 @@
 {
   "name": "finalchallenge",
   "vendor": "hiringcoders202130",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "title": "Service Example",
   "description": "Reference app for VTEX IO Services",
   "mustUpdateAt": "2018-01-04",
@@ -13,7 +13,8 @@
   },
   "scripts": {},
   "credentialType": "absolute",
-  "policies": [{
+  "policies": [
+    {
       "name": "outbound-access",
       "attrs": {
         "host": "se3l85r4x5.execute-api.us-east-2.amazonaws.com",
